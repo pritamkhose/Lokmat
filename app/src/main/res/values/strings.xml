@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomizedListView!</string>
+    <string name="app_name">लोकमत</string>
+    <string name="listurl">http://115.112.141.11/lokmat/mobile_app.php?catid=</string>
+    <string name="detailurl">http://115.112.141.11/lokmat/mobile_storyapp.php?</string>
+    <string name="createby">Develop by ~ Pritam Khose</string>
+
+    <string-array name="cat_arrays">
+        <item>ताज्या बातम्या~tazya</item>
+        <item>महाराष्ट्र~1</item>
+        <item>राष्ट्रीय~2</item>
+        <item>आंतरराष्ट्रीय~247</item>
+        <item>क्रीडा~4</item>
+        <item>व्यापार~298</item>
+        <item>मनोरंजन~5</item>
+        <item>संपादकीय~297</item>
+        <item>जरा हटके~298</item>
+        <item>मंथन~29</item>
+        <item>सखी~30</item>
+        <item>ऑक्सिजन~31</item>
+        <item>मुंबई~10~</item>
+        <item>नवी मुंबई~300</item>
+        <item>ठाणे~299</item>
+        <item>रायगड~301</item>
+        <item>वसई विरार~302</item>
+        <item>अहमदनगर~20</item>
+        <item>पुणे~12</item>
+        <item>पिंपरी - चिंचवड~302</item>
+        <item>पुणे ग्रामीण~304</item>
+        <item>नागपूर~9</item>
+        <item>चंद्रपूर~256</item>
+        <item>भंडारा~305</item>
+        <item>गोंदिया~306</item>
+        <item>अमरावती~309</item>
+        <item>यवतमाळ~310</item>
+        <item>गडचिरोली~311</item>
+        <item>वर्धा~327</item>
+        <item>औरंगाबाद~13</item>
+        <item>परभणी~312</item>
+        <item>बीड~313</item>
+        <item>लातूर~314</item>
+        <item>उस्मानाबाद~315</item>
+        <item>जालना~316</item>
+        <item>नांदेड~317</item>
+        <item>हिंगोली~318</item>
+        <item>नाशिक~14</item>
+        <item>नाशिक ग्रामीण~319</item>
+        <item>कोल्हापूर~16</item>
+        <item>सिंधुदूर्ग~320</item>
+        <item>रत्नागिरी~321</item>
+        <item>सांगली~18</item>
+        <item>सातारा~17</item>
+        <item>सोलापूर~15</item>
+        <item>अकोला~19</item>
+        <item>वाशिम~322</item>
+        <item>बुलढाणा~323</item>
+        <item>जळगाव~21</item>
+        <item>धुळे~324</item>
+        <item>नंदूरबार~325</item>
+        <item>गोवा~22</item>
+    </string-array>
+</resources>

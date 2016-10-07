@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Software\Android\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_53ade4b82d693488e555d98aaa2405dbcbf5f2a4.jar" />
+    </item>
+    <item
+        jar="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="04d14f518e016b6972abe20586cfe00f4ea4c05b">
+        <dex dex="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_79ce03dcd0aca1ba30efa30dc76170d5dc728020.jar" />
+    </item>
+    <item
+        jar="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1fa206d43450901e7f3ba52191025598a243f865">
+        <dex dex="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\pre-dexed\debug\instant-run_2d2c4da6a78be034dfd9a65bb7a7bbf0eb38105d.jar" />
+    </item>
+    <item
+        jar="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-19.1.0_7cb1c4ff92e9287ab777a7ffcb00e8d56c48a5d4.jar" />
+    </item>
+
+</items>
