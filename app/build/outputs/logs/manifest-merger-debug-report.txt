@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml
@@ -29,54 +29,58 @@ uses-permission#android.permission.INTERNET
 ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:12:22-77
 application
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:13:5-36:19
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:14:5-37:19
 MERGED from [com.android.support:appcompat-v7:19.1.0] E:\Educational\Code\Android\android hive\Lokmat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
 	android:label
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:17:9-41
 	android:icon
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:15:9-38
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:16:9-38
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:14:9-73
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:15:9-73
 activity#com.pritam.lokmat.MainActivity
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:17:9-27:20
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:18:9-28:20
 	android:label
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:20:13-45
 	android:configChanges
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:20:13-59
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:21:13-59
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:18:13-58
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:19:13-58
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.pritam.lokmat.SingleMenuItemActivity
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:29:9-32:52
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:30:9-33:52
 	android:label
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:32:13-40
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:33:13-40
 	android:configChanges
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:31:13-59
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:32:13-59
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:30:13-68
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:31:13-68
 activity#com.pritam.lokmat.CustomizedListView
-ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:33:9-35:50
+ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:34:9-36:50
 	android:label
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:35:13-38
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:36:13-38
 	android:configChanges
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:34:13-59
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:35:13-59
 	android:name
-		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:33:19-70
+		ADDED from E:\Educational\Code\Android\android hive\Lokmat\app\src\main\AndroidManifest.xml:34:19-70

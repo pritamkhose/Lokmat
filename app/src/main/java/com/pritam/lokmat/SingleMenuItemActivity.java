@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,6 +20,7 @@ import android.widget.Toast;
 import com.pritam.lokmat.com.example.utility.AppConstant;
 import com.pritam.lokmat.com.example.utility.HttpAsyncTask;
 import com.pritam.lokmat.com.example.utility.ImageLoader;
+import com.pritam.lokmat.com.example.utility.Utility;
 import com.pritam.lokmat.com.example.utility.XMLParser;
 
 import org.w3c.dom.CharacterData;
@@ -62,7 +64,13 @@ public class SingleMenuItemActivity  extends Activity {
             intentstr.add(j,in.getStringExtra(str[j]));
 
         URL= URL+ "catid="+intentstr.get(1)+"&newsid="+intentstr.get(2);
-        getData();
+
+        if (Utility.isConnected(this)) {
+            getData();
+        }else {
+            Toast.makeText(this, getResources().getString(R.string.netErr), Toast.LENGTH_SHORT).show();
+            onBackPressed();
+        }
 
         TextView title =  ((TextView) findViewById(R.id.createby));
         title.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +99,6 @@ public class SingleMenuItemActivity  extends Activity {
     public void getData() {
         GetXMLTask1 task = new GetXMLTask1();
         task.execute(URL);
-
     }
 
     private class GetXMLTask1 extends HttpAsyncTask {
@@ -156,16 +163,22 @@ public class SingleMenuItemActivity  extends Activity {
                             "</body>\n" +
                             "</html>\n";
 
-        findViewById(R.id.description_web).setVisibility(View.VISIBLE);
-        ((WebView) findViewById(R.id.description_web)).loadDataWithBaseURL(null, content, "text/html", "UTF-8", null);
+
+       /* ((WebView) findViewById(R.id.description_web)).loadDataWithBaseURL(null, content, "text/html", "UTF-8", null);
         findViewById(R.id.description_web).setBackgroundColor(Color.parseColor("#FFFFFF"));
         findViewById(R.id.description_web).setVerticalScrollBarEnabled(true);
         findViewById(R.id.description_web).setHorizontalScrollBarEnabled(true);
         WebSettings webSettings = ((WebView) findViewById(R.id.description_web)).getSettings();
-        webSettings.setJavaScriptEnabled(true);
+        webSettings.setJavaScriptEnabled(true);*/
 
-
-        findViewById(R.id.createby).setVisibility(View.VISIBLE);
+            findViewById(R.id.description_web).setVisibility(View.VISIBLE);
+            WebView WebView = (WebView) findViewById(R.id.description_web);
+            WebView.setWebViewClient(new MyBrowser());
+            WebView.getSettings().setLoadsImagesAutomatically(true);
+            WebView.getSettings().setJavaScriptEnabled(true);
+            WebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+            WebView.loadDataWithBaseURL(null, content, "text/html", "UTF-8", null);
+            findViewById(R.id.createby).setVisibility(View.VISIBLE);
 
     }
 
@@ -185,6 +198,14 @@ public class SingleMenuItemActivity  extends Activity {
         ((AppConstant) this.getApplication()).setCompressImage(true);
         super.onBackPressed();  // optional depending on your needs
         finish();
+    }
+
+    class MyBrowser extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
     }
 }
 

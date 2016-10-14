@@ -961,6 +961,8 @@ containing a value of this type.
         public static final int detailurl=0x7f05000f;
         public static final int hello=0x7f050010;
         public static final int listurl=0x7f050011;
+        public static final int netErr=0x7f050012;
+        public static final int title_activity_news=0x7f050013;
     }
     public static final class style {
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f080041;

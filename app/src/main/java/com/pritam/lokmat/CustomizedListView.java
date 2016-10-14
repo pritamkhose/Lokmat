@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.pritam.lokmat.com.example.utility.AppConstant;
 import com.pritam.lokmat.com.example.utility.HttpAsyncTask;
+import com.pritam.lokmat.com.example.utility.Utility;
 import com.pritam.lokmat.com.example.utility.XMLParser;
 
 public class CustomizedListView extends Activity {
@@ -58,7 +59,13 @@ public class CustomizedListView extends Activity {
 		URL = URL+ in.getStringExtra("category").toString();
 		((TextView) findViewById(R.id.cat)).setText(in.getStringExtra("catname").toString());
 
-		getData();
+		if (Utility.isConnected(this)) {
+			getData();
+		}else {
+			Toast.makeText(this, getResources().getString(R.string.netErr), Toast.LENGTH_SHORT).show();
+			onBackPressed();
+		}
+
 
 	}
 

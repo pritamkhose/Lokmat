@@ -372,6 +372,8 @@ int string createby 0x7f05000e
 int string detailurl 0x7f05000f
 int string hello 0x7f050010
 int string listurl 0x7f050011
+int string netErr 0x7f050012
+int string title_activity_news 0x7f050013
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f080041
 int style TextAppearance_AppCompat_Base_SearchResult 0x7f080042
 int style TextAppearance_AppCompat_Base_SearchResult_Subtitle 0x7f08000a

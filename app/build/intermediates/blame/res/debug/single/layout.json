@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_row1.xml",
@@ -20,12 +20,12 @@
         "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_list_item.xml",
-        "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\src\\main\\res\\layout\\single_list_item.xml"
-    },
-    {
         "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_list_item.xml",
+        "source": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\src\\main\\res\\layout\\single_list_item.xml"
     },
     {
         "merged": "E:\\Educational\\Code\\Android\\android hive\\Lokmat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",

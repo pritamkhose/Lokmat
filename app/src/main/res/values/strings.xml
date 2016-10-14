@@ -5,6 +5,8 @@
     <string name="listurl">http://115.112.141.11/lokmat/mobile_app.php?catid=</string>
     <string name="detailurl">http://115.112.141.11/lokmat/mobile_storyapp.php?</string>
     <string name="createby">Develop by ~ Pritam Khose</string>
+    <string name="netErr">इंटरनेट कनेक्शन नाही ... नंतर पुन्हा प्रयत्न करा</string>
+    <string name="title_activity_news">NewsActivity</string>
 
     <string-array name="cat_arrays">
         <item>ताज्या बातम्या~tazya</item>

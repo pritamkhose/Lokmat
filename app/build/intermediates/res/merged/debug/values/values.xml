@@ -190,6 +190,8 @@
     <string name="detailurl">http://115.112.141.11/lokmat/mobile_storyapp.php?</string>
     <string name="hello">Hello World, CustomizedListView!</string>
     <string name="listurl">http://115.112.141.11/lokmat/mobile_app.php?catid=</string>
+    <string name="netErr">इंटरनेट कनेक्शन नाही ... नंतर पुन्हा प्रयत्न करा</string>
+    <string name="title_activity_news">NewsActivity</string>
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
         <item name="android:textColor">@android:color/primary_text_light</item>
     </style>
